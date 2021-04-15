@@ -15,14 +15,14 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="200dp"
+        android:layout_marginStart="127dp"
+        android:layout_marginLeft="127dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="sans-serif"
 
-        android:layout_marginLeft="200dp"
-        android:layout_marginTop="566dp"
-        android:layout_marginEnd="200dp"
-        android:layout_marginRight="200dp"
-        android:fontFamily="@font/cormorant_sc_light"
-        android:text="Nous somme la pour vous"
+        android:text="Nous somme la \n \t pour vous"
         android:textColor="#FFF7F7"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -51,6 +51,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="178dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="153dp"
+        android:layout_marginLeft="153dp"
+        android:layout_marginTop="199dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:backgroundTint="#F2900F"
+        android:text="Commencer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
