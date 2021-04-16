@@ -22,10 +22,10 @@ public class MainActivity extends AppCompatActivity {
         bassAnim = AnimationUtils.loadAnimation(this,R.anim.bass_anim);
         image =findViewById(R.id.imageView2);
         image2 =findViewById(R.id.imageView);
-        text = findViewById(R.id.textView);
+        /*text = findViewById(R.id.textView);*/
         image.setAnimation(topAnim );
         image2.setAnimation(bassAnim);
-        text.setAnimation(bassAnim);
+        /*text.setAnimation(bassAnim);*/
 
 
     }
